@@ -1,0 +1,6 @@
+{
+  "name": "YOYO - Sierra Leone Social Commerce",
+  "description": "Sierra Leone's premier TikTok-inspired business discovery, short-form video, and social commerce platform in SLE.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

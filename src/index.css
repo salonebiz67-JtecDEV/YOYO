@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --color-yoyo-green: #00B050;
+  --color-yoyo-green-dark: #009142;
+  --color-yoyo-green-light: #E6F8EE;
+  --color-yoyo-blue: #0066FF;
+  --color-yoyo-blue-dark: #0052CC;
+  --color-yoyo-blue-light: #EDF5FF;
+  --color-yoyo-dark: #0B1F3B;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Hide scrollbars for clean TikTok feed experience */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Snap scrolling container */
+.snap-y-mandatory {
+  scroll-snap-type: y mandatory;
+}
+.snap-start {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+/* Mobile safe area handling */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 16px);
+}
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 12px);
+}
